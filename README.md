@@ -27,6 +27,17 @@ LangChain 生态迭代快，本仓库所有文章锁定在同一组版本上：
 | deepagents | 0.7.x（仅第 18 篇对比时涉及） |
 | 锚定日期 | 2026-11-18 |
 
+## 在线文档（飞书知识库）
+
+知识库名：**LangChain / LangGraph 实战**（space_id `7709512825424579611`）
+
+| 文档 | 链接 |
+|---|---|
+| 系列总览（18 篇目录与进度） | https://my.feishu.cn/wiki/IuziwwHkIiUOlCkfhDtcWyQ6nTe |
+| 第 01 篇：开篇 | https://my.feishu.cn/wiki/KqzowWFQMiuPHOkzwVIcWZfsnyd |
+
+文档正文由仓库 markdown 转 XML 生成，三张配图按章节内嵌；后续每写完一篇，按同样流程建文档、移入知识库，并在总览表里把状态改为「已发布」。
+
 装环境：
 
 ```sh
