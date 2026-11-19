@@ -54,13 +54,13 @@ pip install -U "langchain>=1.5,<2" "langgraph>=1.2,<2" "langchain-openai>=1.0"
 
 ## 系列目录（共 18 篇，四个阶段）
 
-发布标题统一为 `第XX篇：主标题｜Agent画图`，控制在 30 字以内；`Agent画图` 是合集《把 Agent 画成图》的简称，便于在文章列表里一眼认出系列。
+发布标题统一为 `第XX篇：主标题｜LangGraph系列`，控制在 30 字以内；后缀是系列标识，便于在文章列表里一眼认出。每篇正文开头有一句欢迎语，写明系列名与篇号。
 
 ### 一、LangChain 1.x 重做之后（01-05）
 
 | # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
-| 01 | LangChain 只剩一个函数 | 删了什么、为什么敢删、代价在哪 | 已发布（含 3 张配图） |
+| 01 | 只剩一个函数 | 删了什么、为什么敢删、代价在哪 | 已发布（含 3 张配图） |
 | 02 | 消息列表多了什么 | agent loop 每次迭代在状态上留下什么 | 已发布（含 3 张配图） |
 | 03 | 四个钩子位怎么用 | before/after/wrap_model/wrap_tool 的边界 | 已发布（含 3 张配图） |
 | 04 | 工具怎么被模型看见 | schema 投影、ToolStrategy 与 ProviderStrategy | 待写 |
@@ -90,8 +90,8 @@ pip install -U "langchain>=1.5,<2" "langgraph>=1.2,<2" "langchain-openai>=1.0"
 
 | # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
-| 16 | 带人审的资料 Agent | 串起 03/08/09/10 | 待写 |
-| 17 | 多 Agent 研究小组 | supervisor + 子图，串起 07/11/13 | 待写 |
+| 16 | 带人审的资料Agent | 串起 03/08/09/10 | 待写 |
+| 17 | 多Agent研究小组 | supervisor + 子图，串起 07/11/13 | 待写 |
 | 18 | 四种编排怎么选 | LangChain / LangGraph / Deep Agents / dsh | 待写 |
 
 ## 目录结构
