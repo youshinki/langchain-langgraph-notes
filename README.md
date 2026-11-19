@@ -2,6 +2,7 @@
 
 **LangChain 1.x / LangGraph 实战系列**的配套仓库：每篇文章对应的可运行代码、配图源文件、可复现步骤都放在这里。
 
+> 仓库地址：https://github.com/youshinki/langchain-langgraph-notes
 > 头条系列名：《把 Agent 画成图：LangChain 1.x 与 LangGraph 实战》
 > 头条合集标题：**把 Agent 画成图：18 篇吃透 LangChain 与 LangGraph**
 > 合集封面：`assets/00/00-cover-16x9.png`（16:9，深色科技风）
