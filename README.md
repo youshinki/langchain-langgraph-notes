@@ -37,6 +37,7 @@ LangChain 生态迭代快，本仓库所有文章锁定在同一组版本上：
 |---|---|
 | 系列总览（18 篇目录与进度） | https://my.feishu.cn/wiki/IuziwwHkIiUOlCkfhDtcWyQ6nTe |
 | 第 01 篇：开篇 | https://my.feishu.cn/wiki/KqzowWFQMiuPHOkzwVIcWZfsnyd |
+| 第 02 篇：消息列表多了什么 | https://my.feishu.cn/wiki/RCy5w2S0Ui8XenkFT6fc30WsnGe |
 
 文档正文由仓库 markdown 转 XML 生成，三张配图按章节内嵌；后续每写完一篇，按同样流程建文档、移入知识库，并在总览表里把状态改为「已发布」。
 
@@ -57,8 +58,8 @@ pip install -U "langchain>=1.5,<2" "langgraph>=1.2,<2" "langchain-openai>=1.0"
 
 | # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
-| 01 | LangChain 只剩一个函数 | 删了什么、为什么敢删、代价在哪 | 初稿（含 3 张配图） |
-| 02 | 消息列表多了什么 | agent loop 每次迭代在状态上留下什么 | 待写 |
+| 01 | LangChain 只剩一个函数 | 删了什么、为什么敢删、代价在哪 | 已发布（含 3 张配图） |
+| 02 | 消息列表多了什么 | agent loop 每次迭代在状态上留下什么 | 已发布（含 3 张配图） |
 | 03 | 四个钩子位怎么用 | before/after/wrap_model/wrap_tool 的边界 | 待写 |
 | 04 | 工具怎么被模型看见 | schema 投影、ToolStrategy 与 ProviderStrategy | 待写 |
 | 05 | 模型层怎么不写死 | 多 provider 统一、按任务选模型、失败切备 | 待写 |
