@@ -51,43 +51,45 @@ pip install -U "langchain>=1.5,<2" "langgraph>=1.2,<2" "langchain-openai>=1.0"
 
 ## 系列目录（共 18 篇，四个阶段）
 
+发布标题统一为 `第XX篇：主标题｜Agent画图`，控制在 30 字以内；`Agent画图` 是合集《把 Agent 画成图》的简称，便于在文章列表里一眼认出系列。
+
 ### 一、LangChain 1.x 重做之后（01-05）
 
-| # | 标题 | 核心问题 | 状态 |
+| # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
-| 01 | 开篇：LangChain 1.x 只留了一个 create_agent | 删了什么、为什么敢删、代价在哪 | 初稿（含 3 张配图） |
-| 02 | 转一圈：消息列表里到底多了什么 | agent loop 的每一次迭代在状态上留下什么 | 待写 |
-| 03 | middleware：四个钩子位能塞什么 | before/after/wrap_model/wrap_tool 的边界 | 待写 |
-| 04 | 工具与结构化输出 | schema 怎么被投影给模型、ToolStrategy 与 ProviderStrategy | 待写 |
-| 05 | 模型层：content blocks、路由与降级 | 多 provider 统一、按任务选模型、失败切备 | 待写 |
+| 01 | LangChain 只剩一个函数 | 删了什么、为什么敢删、代价在哪 | 初稿（含 3 张配图） |
+| 02 | 消息列表多了什么 | agent loop 每次迭代在状态上留下什么 | 待写 |
+| 03 | 四个钩子位怎么用 | before/after/wrap_model/wrap_tool 的边界 | 待写 |
+| 04 | 工具怎么被模型看见 | schema 投影、ToolStrategy 与 ProviderStrategy | 待写 |
+| 05 | 模型层怎么不写死 | 多 provider 统一、按任务选模型、失败切备 | 待写 |
 
 ### 二、LangGraph 运行时（06-11）
 
-| # | 标题 | 核心问题 | 状态 |
+| # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
-| 06 | StateGraph 三件套：State、Reducer、Channel | 并行节点写同一个 key 为什么不打架 | 待写 |
-| 07 | 控制流：条件边、Command、Send | 一对多分发与 map-reduce | 待写 |
-| 08 | 持久化：checkpointer、thread、super-step | 断点续跑到底续在哪一步 | 待写 |
-| 09 | interrupt：为什么恢复时要重放整个节点 | 中断的真实语义与幂等写法 | 待写 |
-| 10 | 流式：stream modes 与 v2/v3 事件协议 | token、更新、工具参数增量怎么取 | 待写 |
-| 11 | 子图与多 Agent：supervisor、handoff | 上下文共享与隔离的边界 | 待写 |
+| 06 | State 怎么合并 | 并行节点写同一个 key 为什么不打架 | 待写 |
+| 07 | 一张图怎么分叉 | 条件边、Command、Send 与 map-reduce | 待写 |
+| 08 | 断点续跑续在哪 | checkpointer、thread、super-step | 待写 |
+| 09 | 中断为什么要重放 | interrupt 的真实语义与幂等写法 | 待写 |
+| 10 | 流式到底流什么 | stream modes 与 v2/v3 事件协议 | 待写 |
+| 11 | 子图怎么隔上下文 | supervisor、handoff 与上下文隔离 | 待写 |
 
 ### 三、工程化（12-15）
 
-| # | 标题 | 核心问题 | 状态 |
+| # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
-| 12 | 时间旅行：历史状态与 fork | 回退一步、走另一条路 | 待写 |
-| 13 | 可靠性：重试、节点超时、error_handler、优雅停机 | 1.2 新增的四个控制点怎么配 | 待写 |
-| 14 | 可观测与评估 | trace 里看什么、回归集怎么建 | 待写 |
-| 15 | 部署：Agent Server、线程与定时任务 | 从脚本到可托管服务 | 待写 |
+| 12 | 回到上一步重走 | 历史状态、get_state_history 与 fork | 待写 |
+| 13 | 重试超时怎么配 | 重试、节点超时、error_handler、优雅停机 | 待写 |
+| 14 | 线上怎么看得清 | trace 里看什么、回归集怎么建 | 待写 |
+| 15 | 从脚本到服务 | Agent Server、线程与定时任务 | 待写 |
 
 ### 四、实战（16-18）
 
-| # | 标题 | 核心问题 | 状态 |
+| # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
-| 16 | 实战：一个带人审的资料整理 Agent | 串起 03/08/09/10 | 待写 |
-| 17 | 实战：supervisor + 子图的研究小组 | 串起 07/11/13 | 待写 |
-| 18 | 复盘：LangChain / LangGraph / Deep Agents / dsh 怎么选 | 四种编排取舍 | 待写 |
+| 16 | 带人审的资料 Agent | 串起 03/08/09/10 | 待写 |
+| 17 | 多 Agent 研究小组 | supervisor + 子图，串起 07/11/13 | 待写 |
+| 18 | 四种编排怎么选 | LangChain / LangGraph / Deep Agents / dsh | 待写 |
 
 ## 目录结构
 
