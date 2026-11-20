@@ -42,6 +42,7 @@ LangChain 生态迭代快，本仓库所有文章锁定在同一组版本上：
 | 第 03 篇：四个钩子位怎么用 | https://my.feishu.cn/wiki/XMP4w7rNniZAXRkjWlycG0j0nrc |
 | 第 04 篇：工具怎么被模型看见 | https://my.feishu.cn/wiki/LZwFweyIGiix97k9fgFcz6YKned |
 | 第 05 篇：模型层怎么不写死 | https://my.feishu.cn/wiki/QzKJwgSmrikuqHk63hzc7jULnGc |
+| 第 06 篇：State 怎么合并 | https://my.feishu.cn/wiki/LkliwGQaHiNBXTkMQzScUTYvnre |
 
 文档正文由仓库 markdown 转 XML 生成，三张配图按章节内嵌；后续每写完一篇，按同样流程建文档、移入知识库，并在总览表里把状态改为「已发布」。
 
@@ -72,7 +73,7 @@ pip install -U "langchain>=1.5,<2" "langgraph>=1.2,<2" "langchain-openai>=1.0"
 
 | # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
-| 06 | State 怎么合并 | 并行节点写同一个 key 为什么不打架 | 待写 |
+| 06 | State 怎么合并 | 并行节点写同一个 key 为什么不打架 | 已发布（含 3 张配图） |
 | 07 | 一张图怎么分叉 | 条件边、Command、Send 与 map-reduce | 待写 |
 | 08 | 断点续跑续在哪 | checkpointer、thread、super-step | 待写 |
 | 09 | 中断为什么要重放 | interrupt 的真实语义与幂等写法 | 待写 |
