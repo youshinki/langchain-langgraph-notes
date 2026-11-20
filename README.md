@@ -40,6 +40,7 @@ LangChain 生态迭代快，本仓库所有文章锁定在同一组版本上：
 | 第 01 篇：开篇 | https://my.feishu.cn/wiki/KqzowWFQMiuPHOkzwVIcWZfsnyd |
 | 第 02 篇：消息列表多了什么 | https://my.feishu.cn/wiki/RCy5w2S0Ui8XenkFT6fc30WsnGe |
 | 第 03 篇：四个钩子位怎么用 | https://my.feishu.cn/wiki/XMP4w7rNniZAXRkjWlycG0j0nrc |
+| 第 04 篇：工具怎么被模型看见 | https://my.feishu.cn/wiki/LZwFweyIGiix97k9fgFcz6YKned |
 
 文档正文由仓库 markdown 转 XML 生成，三张配图按章节内嵌；后续每写完一篇，按同样流程建文档、移入知识库，并在总览表里把状态改为「已发布」。
 
@@ -63,7 +64,7 @@ pip install -U "langchain>=1.5,<2" "langgraph>=1.2,<2" "langchain-openai>=1.0"
 | 01 | 只剩一个函数 | 删了什么、为什么敢删、代价在哪 | 已发布（含 3 张配图） |
 | 02 | 消息列表多了什么 | agent loop 每次迭代在状态上留下什么 | 已发布（含 3 张配图） |
 | 03 | 四个钩子位怎么用 | before/after/wrap_model/wrap_tool 的边界 | 已发布（含 3 张配图） |
-| 04 | 工具怎么被模型看见 | schema 投影、ToolStrategy 与 ProviderStrategy | 待写 |
+| 04 | 工具怎么被模型看见 | schema 投影、ToolStrategy 与 ProviderStrategy | 已发布（含 3 张配图） |
 | 05 | 模型层怎么不写死 | 多 provider 统一、按任务选模型、失败切备 | 待写 |
 
 ### 二、LangGraph 运行时（06-11）
