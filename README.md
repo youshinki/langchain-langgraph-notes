@@ -49,6 +49,7 @@ LangChain 生态迭代快，本仓库所有文章锁定在同一组版本上：
 | 第 10 篇：流式到底流什么 | https://my.feishu.cn/wiki/RRF0wBFyriNPFsk9b1yc7RJ5nLb |
 | 第 11 篇：子图怎么隔上下文 | https://my.feishu.cn/wiki/WmuZwynxPiAULpkRYbkcmhgEnvh |
 | 第 12 篇：回到上一步重走 | https://my.feishu.cn/wiki/UeBxwAWAciPXjCkGrYGc1GC2noe |
+| 第 13 篇：重试超时怎么配 | https://my.feishu.cn/wiki/AaNwwEgYciddizkkO5Ocaf1Vnkd |
 
 文档正文由仓库 markdown 转 XML 生成，三张配图按章节内嵌；后续每写完一篇，按同样流程建文档、移入知识库，并在总览表里把状态改为「已发布」。
 
@@ -91,7 +92,7 @@ pip install -U "langchain>=1.5,<2" "langgraph>=1.2,<2" "langchain-openai>=1.0"
 | # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
 | 12 | 回到上一步重走 | replay 与 fork、as_node、子图回退粒度 | 已发布（含 3 张配图） |
-| 13 | 重试超时怎么配 | 重试、节点超时、error_handler、优雅停机 | 待写 |
+| 13 | 重试超时怎么配 | 重试、节点超时、error_handler、优雅停机 | 已发布（含 3 张配图） |
 | 14 | 线上怎么看得清 | trace 里看什么、回归集怎么建 | 待写 |
 | 15 | 从脚本到服务 | Agent Server、线程与定时任务 | 待写 |
 
