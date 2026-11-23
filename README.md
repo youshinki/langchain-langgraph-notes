@@ -96,7 +96,7 @@ pip install -U "langchain>=1.5,<2" "langgraph>=1.2,<2" "langchain-openai>=1.0"
 | 12 | 回到上一步重走 | replay 与 fork、as_node、子图回退粒度 | 已发布（含 3 张配图） |
 | 13 | 重试超时怎么配 | 重试、节点超时、error_handler、优雅停机 | 已发布（含 3 张配图） |
 | 14 | 线上出问题怎么查 | run/trace/thread/trajectory、trace 看哪四处、回归集怎么建 | 已发布（含 3 张配图） |
-| 15 | 从脚本到服务 | Agent Server、线程与定时任务 | 待写 |
+| 15 | 从脚本到服务 | langgraph.json、dev/up/build、assistant、threads/runs、双击与 cron | 已发布（含 3 张配图） |
 
 ### 四、实战（16-18）
 
