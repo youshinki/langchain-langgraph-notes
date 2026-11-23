@@ -51,6 +51,7 @@ LangChain 生态迭代快，本仓库所有文章锁定在同一组版本上：
 | 第 12 篇：回到上一步重走 | https://my.feishu.cn/wiki/UeBxwAWAciPXjCkGrYGc1GC2noe |
 | 第 13 篇：重试超时怎么配 | https://my.feishu.cn/wiki/AaNwwEgYciddizkkO5Ocaf1Vnkd |
 | 第 14 篇：线上出问题怎么查 | https://my.feishu.cn/wiki/ZKI3wPSKLisgIUkKkiXcsrhTnhf |
+| 第 15 篇：从脚本到服务 | https://my.feishu.cn/wiki/SUAqw3m6FiXFrQknPypcA4nanGd |
 
 文档正文由仓库 markdown 转 XML 生成，三张配图按章节内嵌；后续每写完一篇，按同样流程建文档、移入知识库，并在总览表里把状态改为「已发布」。
 
