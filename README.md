@@ -103,7 +103,7 @@ pip install -U "langchain>=1.5,<2" "langgraph>=1.2,<2" "langchain-openai>=1.0"
 
 | # | 发布标题 | 核心问题 | 状态 |
 |---|---|---|---|
-| 16 | 带人审的资料Agent | 串起 03/08/09/10 | 待写 |
+| 16 | 带人审的资料 Agent | HumanInTheLoopMiddleware、四种决定、resume 与审计 | 已发布（含 3 张配图） |
 | 17 | 多Agent研究小组 | supervisor + 子图，串起 07/11/13 | 待写 |
 | 18 | 四种编排怎么选 | LangChain / LangGraph / Deep Agents / dsh | 待写 |
 
